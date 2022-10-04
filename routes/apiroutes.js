@@ -11,7 +11,7 @@ notes.get('/notes', (req, res) => {
 notes.post('/notes', (req, res) => {
 
 
-    const { title, text } = req.body;
+    const { title, text, } = req.body;
     console.log(req.body)
     if (req.body) {
         const newNote = {
