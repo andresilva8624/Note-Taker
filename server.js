@@ -1,7 +1,7 @@
 const express = require('express');
 const notes = require('express').Router();
 const path = require('path');
-const  { readFromFile, readAndAppend, writeToFile }  = require('./helpers/fsUtils.js');
+// const  { sendFile }  = require('./helpers/fsUtils.js');
 const uuid = require('./helpers/uuid.js');
 const api = require('./routes/apiroutes');
 
