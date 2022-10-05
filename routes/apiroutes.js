@@ -23,7 +23,7 @@ notes.post('/notes', (req, res) => {
         readAndAppend(newNote, './db/db.json');
         res.json(`Note added successfully 🚀`);
     } else {
-        res.error('Error in adding note');
+        res.err('Error in adding note');
     };
 });
 
