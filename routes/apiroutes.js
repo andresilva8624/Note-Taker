@@ -29,10 +29,10 @@ notes.post('/notes', (req, res) => {
     notes.delete('/notes/:note_id', (req, res) => {
         const noteId = req.params.note_id;
         readFromFile('./db/db.json')
-            .then((data) => JSON.parse(data))
+            .then((note_id) => JSON.parse(note_id))
             .then((json) => {
                 // Make a new array of all notes except the one with the ID provided in the URL
-                const result = json.filter((note) => note.note_id !== noteId);
+                const result = json.filter((note) => note.note_id === noteId, (note) => note.note_id !==noteId);
 
                 // Save that array to the filesystem
                 writeToFile('./db/db.json', result);
