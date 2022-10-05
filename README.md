@@ -5,12 +5,13 @@
 ## Description
 
 The assignment was to modify the starter code to create an application called Note Taker that can be used to write and save notes. The application will use Express.js bacj end and will save and retrieve note date from a JSON file
-The application’s front was already created. The front end and back end are now connected. Application has been deployed to Heroku.
+The application’s front was already created. The front end and back end are now connected. Application has been deployed to Heroku. Enjoy! 😀
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Contact](#contact)
 
 ## Installation
 
@@ -26,7 +27,7 @@ Clone the repository to your local machine and open the server.js on your Termin
 
 ## Credits
 
-Thank you to [Sabrina Hanson](https://www.github.com/sabhanson) for helping me with this assignment
+Thank you to [Sabrina Hanson](https://www.github.com/sabhanson), our instructor Diarmuid and all the TA's for helping me with this assignment
 
 ## License
 
