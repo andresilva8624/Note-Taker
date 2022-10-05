@@ -32,7 +32,7 @@ notes.post('/notes', (req, res) => {
             .then((note_id) => JSON.parse(note_id))
             .then((json) => {
                 // Make a new array of all notes except the one with the ID provided in the URL
-                const result = json.filter((note) => note.note_id === noteId, (note) => note.note_id !==noteId);
+                const result = json.filter((note) => note.note_id === noteId);
 
                 // Save that array to the filesystem
                 writeToFile('./db/db.json', result);
