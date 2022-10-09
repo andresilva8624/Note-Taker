@@ -23,6 +23,8 @@ Clone the repository to your local machine and open the server.js on your Termin
 
 [Deployed Site Web](https://andresilva8624.github.io/Note-Taker/)
 
+[Heroku App](https://andres-note-taker.herokuapp.com/)
+
 ![gif of deployed site](/public/assets/images/website.gif)
 
 ## Credits
